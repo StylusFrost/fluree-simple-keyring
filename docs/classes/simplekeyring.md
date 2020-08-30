@@ -62,7 +62,7 @@
 
 ⊕ **new SimpleKeyring**(opts: _`any`_): [SimpleKeyring](simplekeyring.md)
 
-_Defined in src/index.ts:13_
+_Defined in [src/index.ts:13](https://github.com/StylusFrost/fluree-simple-keyring/blob/2ebbdeb/src/index.ts#L13)_
 
 **Parameters:**
 
@@ -82,7 +82,7 @@ _Defined in src/index.ts:13_
 
 **● type**: _`string`_ = SimpleKeyring.type
 
-_Defined in src/index.ts:12_
+_Defined in [src/index.ts:12](https://github.com/StylusFrost/fluree-simple-keyring/blob/2ebbdeb/src/index.ts#L12)_
 
 ---
 
@@ -92,7 +92,7 @@ _Defined in src/index.ts:12_
 
 **● wallets**: _`Array`<`Wallet`>_ = []
 
-_Defined in src/index.ts:13_
+_Defined in [src/index.ts:13](https://github.com/StylusFrost/fluree-simple-keyring/blob/2ebbdeb/src/index.ts#L13)_
 
 ---
 
@@ -114,7 +114,7 @@ _Defined in node_modules/@types/node/events.d.ts:30_
 
 **● type**: _`string`_ = "Simple Key Pair"
 
-_Defined in src/index.ts:11_
+_Defined in [src/index.ts:11](https://github.com/StylusFrost/fluree-simple-keyring/blob/2ebbdeb/src/index.ts#L11)_
 
 ---
 
@@ -126,7 +126,7 @@ _Defined in src/index.ts:11_
 
 ▸ **addAccounts**(n?: _`number` \| `undefined`_): `Promise`<`Array`<`Buffer`>>
 
-_Defined in src/index.ts:112_
+_Defined in [src/index.ts:112](https://github.com/StylusFrost/fluree-simple-keyring/blob/2ebbdeb/src/index.ts#L112)_
 
 **Parameters:**
 
@@ -167,7 +167,7 @@ _Defined in node_modules/@types/node/events.d.ts:32_
 
 ▸ **deserialize**(privateKeys?: _`Array`<`Buffer`>_): `Promise`<`unknown`>
 
-_Defined in src/index.ts:95_
+_Defined in [src/index.ts:95](https://github.com/StylusFrost/fluree-simple-keyring/blob/2ebbdeb/src/index.ts#L95)_
 
 **Parameters:**
 
@@ -224,7 +224,7 @@ _Defined in node_modules/@types/node/events.d.ts:45_
 
 ▸ **exportAccount**(authID: _`Buffer`_, opts?: _`object`_): `Promise`<`Buffer`>
 
-_Defined in src/index.ts:132_
+_Defined in [src/index.ts:132](https://github.com/StylusFrost/fluree-simple-keyring/blob/2ebbdeb/src/index.ts#L132)_
 
 **Parameters:**
 
@@ -243,7 +243,7 @@ _Defined in src/index.ts:132_
 
 ▸ **getAccounts**(): `Promise`<`Array`<`Buffer`>>
 
-_Defined in src/index.ts:125_
+_Defined in [src/index.ts:125](https://github.com/StylusFrost/fluree-simple-keyring/blob/2ebbdeb/src/index.ts#L125)_
 
 **Returns:** `Promise`<`Array`<`Buffer`>>
 
@@ -255,7 +255,7 @@ _Defined in src/index.ts:125_
 
 ▸ **getAppKeyAuthID**(authID: _`Buffer`_, origin: _`string`_): `Promise`<`Buffer`>
 
-_Defined in src/index.ts:151_
+_Defined in [src/index.ts:151](https://github.com/StylusFrost/fluree-simple-keyring/blob/2ebbdeb/src/index.ts#L151)_
 
 **Parameters:**
 
@@ -290,7 +290,7 @@ _Defined in node_modules/@types/node/events.d.ts:41_
 
 ▸ **getPrivateKeyFor**(authID: _`Buffer`_, opts?: _`object`_): `Buffer`
 
-_Defined in src/index.ts:27_
+_Defined in [src/index.ts:27](https://github.com/StylusFrost/fluree-simple-keyring/blob/2ebbdeb/src/index.ts#L27)_
 
 **Parameters:**
 
@@ -309,7 +309,7 @@ _Defined in src/index.ts:27_
 
 ▸ **getWalletForAccount**(authID: _`Buffer`_, opts?: _`any`_): `Wallet`
 
-_Defined in src/index.ts:39_
+_Defined in [src/index.ts:39](https://github.com/StylusFrost/fluree-simple-keyring/blob/2ebbdeb/src/index.ts#L39)_
 
 **Parameters:**
 
@@ -509,7 +509,7 @@ _Defined in node_modules/@types/node/events.d.ts:43_
 
 ▸ **removeAccount**(authID: _`Buffer`_): `void`
 
-_Defined in src/index.ts:140_
+_Defined in [src/index.ts:140](https://github.com/StylusFrost/fluree-simple-keyring/blob/2ebbdeb/src/index.ts#L140)_
 
 **Parameters:**
 
@@ -572,7 +572,7 @@ _Defined in node_modules/@types/node/events.d.ts:37_
 
 ▸ **serialize**(): `any`
 
-_Defined in src/index.ts:88_
+_Defined in [src/index.ts:88](https://github.com/StylusFrost/fluree-simple-keyring/blob/2ebbdeb/src/index.ts#L88)_
 
 **Returns:** `any`
 
@@ -606,7 +606,7 @@ _Defined in node_modules/@types/node/events.d.ts:40_
 
 ▸ **signQuery**(authID: _`Buffer`_, query: _`Query`_, opts?: _`object`_): `Promise`<`Query`>
 
-_Defined in src/index.ts:62_
+_Defined in [src/index.ts:62](https://github.com/StylusFrost/fluree-simple-keyring/blob/2ebbdeb/src/index.ts#L62)_
 
 **Parameters:**
 
@@ -626,7 +626,7 @@ _Defined in src/index.ts:62_
 
 ▸ **signRequest**(authID: _`Buffer`_, request: _`Request`_, opts?: _`object`_): `Promise`<`Request`>
 
-_Defined in src/index.ts:79_
+_Defined in [src/index.ts:79](https://github.com/StylusFrost/fluree-simple-keyring/blob/2ebbdeb/src/index.ts#L79)_
 
 **Parameters:**
 
@@ -646,7 +646,7 @@ _Defined in src/index.ts:79_
 
 ▸ **signTransaction**(authID: _`Buffer`_, tx: _`Transaction`_, opts?: _`object`_): `Promise`<`Transaction`>
 
-_Defined in src/index.ts:71_
+_Defined in [src/index.ts:71](https://github.com/StylusFrost/fluree-simple-keyring/blob/2ebbdeb/src/index.ts#L71)_
 
 **Parameters:**
 
