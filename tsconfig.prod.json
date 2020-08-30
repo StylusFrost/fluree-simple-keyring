@@ -1,7 +1,8 @@
 {
   "extends": "@flureejs/config-typescript/tsconfig.prod.json",
   "compilerOptions": {
-    "outDir": "./dist"
+    "outDir": "./dist",
+    "target": "ES5" // TODO: karma is not working in fluree-hd-keyring with ES2017
   },
   "include": ["src/**/*.ts"]
 }
