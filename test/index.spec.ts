@@ -304,7 +304,7 @@ describe('simple-keyring', () => {
           )
           assert.equal(
             query.s.toString('hex'),
-            '50e972935dc3a6c122a92260f5dcd2db1a7288217bdc43dcd2ee2c8c0f79185d',
+            '74ec35fe369e85b1205595637ec45344c9c85dd24c68c6999178feccf311cb20',
           )
         })
         .catch(reason => {
@@ -335,7 +335,7 @@ describe('simple-keyring', () => {
           )
           assert.equal(
             request.s.toString('hex'),
-            '20c2f65b98f76dab52660fa9defd3bdf7184ab99ec7512e8c89e532b06cf0aff',
+            'a614b2c140d789d8379bdea6ce3c135cdd42047a741011ed0b202e55036f2c2b',
           )
         })
         .catch(reason => {
@@ -359,7 +359,9 @@ describe('simple-keyring', () => {
       const simpleKeyring = new SimpleKeyring([testAccount.key])
       const tx = new Transaction(txParams)
       return simpleKeyring
-        .signTransaction(authID, tx)
+        .signTransaction(authID, tx, {
+          withAppKeyOrigin: 'someapp.origin.io',
+        })
         .then(() => {
           assert.equal(
             tx.r.toString('hex'),
@@ -367,7 +369,7 @@ describe('simple-keyring', () => {
           )
           assert.equal(
             tx.s.toString('hex'),
-            'fb13ca731bdd6a2a8ab8ceae3f7a3fa6607e019f97315d406e4664b9c6bc1881',
+            '3d51ddb02b1c2a80c8ee3a6710dce3fc807ea1fad1b3dd099f32e8325863b0f9',
           )
         })
         .catch(reason => {
