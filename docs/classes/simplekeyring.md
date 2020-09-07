@@ -1,4 +1,4 @@
-[fluree-simple-keyring - v0.1.0](../README.md) > [SimpleKeyring](../classes/simplekeyring.md)
+[fluree-simple-keyring - v0.1.1](../README.md) > [SimpleKeyring](../classes/simplekeyring.md)
 
 # Class: SimpleKeyring
 
@@ -62,7 +62,7 @@
 
 ⊕ **new SimpleKeyring**(opts: _`any`_): [SimpleKeyring](simplekeyring.md)
 
-_Defined in [src/index.ts:13](https://github.com/StylusFrost/fluree-simple-keyring/blob/2ebbdeb/src/index.ts#L13)_
+_Defined in [src/index.ts:13](https://github.com/StylusFrost/fluree-simple-keyring/blob/ef9a3aa/src/index.ts#L13)_
 
 **Parameters:**
 
@@ -82,7 +82,7 @@ _Defined in [src/index.ts:13](https://github.com/StylusFrost/fluree-simple-keyri
 
 **● type**: _`string`_ = SimpleKeyring.type
 
-_Defined in [src/index.ts:12](https://github.com/StylusFrost/fluree-simple-keyring/blob/2ebbdeb/src/index.ts#L12)_
+_Defined in [src/index.ts:12](https://github.com/StylusFrost/fluree-simple-keyring/blob/ef9a3aa/src/index.ts#L12)_
 
 ---
 
@@ -92,7 +92,7 @@ _Defined in [src/index.ts:12](https://github.com/StylusFrost/fluree-simple-keyri
 
 **● wallets**: _`Array`<`Wallet`>_ = []
 
-_Defined in [src/index.ts:13](https://github.com/StylusFrost/fluree-simple-keyring/blob/2ebbdeb/src/index.ts#L13)_
+_Defined in [src/index.ts:13](https://github.com/StylusFrost/fluree-simple-keyring/blob/ef9a3aa/src/index.ts#L13)_
 
 ---
 
@@ -104,7 +104,7 @@ _Defined in [src/index.ts:13](https://github.com/StylusFrost/fluree-simple-keyri
 
 _Inherited from EventEmitter.defaultMaxListeners_
 
-_Defined in node_modules/@types/node/events.d.ts:30_
+_Defined in node_modules/@types/node/ts3.1/events.d.ts:30_
 
 ---
 
@@ -114,7 +114,7 @@ _Defined in node_modules/@types/node/events.d.ts:30_
 
 **● type**: _`string`_ = "Simple Key Pair"
 
-_Defined in [src/index.ts:11](https://github.com/StylusFrost/fluree-simple-keyring/blob/2ebbdeb/src/index.ts#L11)_
+_Defined in [src/index.ts:11](https://github.com/StylusFrost/fluree-simple-keyring/blob/ef9a3aa/src/index.ts#L11)_
 
 ---
 
@@ -126,7 +126,7 @@ _Defined in [src/index.ts:11](https://github.com/StylusFrost/fluree-simple-keyri
 
 ▸ **addAccounts**(n?: _`number` \| `undefined`_): `Promise`<`Array`<`Buffer`>>
 
-_Defined in [src/index.ts:112](https://github.com/StylusFrost/fluree-simple-keyring/blob/2ebbdeb/src/index.ts#L112)_
+_Defined in [src/index.ts:112](https://github.com/StylusFrost/fluree-simple-keyring/blob/ef9a3aa/src/index.ts#L112)_
 
 **Parameters:**
 
@@ -148,7 +148,7 @@ _Inherited from EventEmitter.addListener_
 
 _Overrides EventEmitter.addListener_
 
-_Defined in node_modules/@types/node/events.d.ts:32_
+_Defined in node_modules/@types/node/ts3.1/events.d.ts:32_
 
 **Parameters:**
 
@@ -167,7 +167,7 @@ _Defined in node_modules/@types/node/events.d.ts:32_
 
 ▸ **deserialize**(privateKeys?: _`Array`<`Buffer`>_): `Promise`<`unknown`>
 
-_Defined in [src/index.ts:95](https://github.com/StylusFrost/fluree-simple-keyring/blob/2ebbdeb/src/index.ts#L95)_
+_Defined in [src/index.ts:95](https://github.com/StylusFrost/fluree-simple-keyring/blob/ef9a3aa/src/index.ts#L95)_
 
 **Parameters:**
 
@@ -189,7 +189,7 @@ _Inherited from EventEmitter.emit_
 
 _Overrides EventEmitter.emit_
 
-_Defined in node_modules/@types/node/events.d.ts:44_
+_Defined in node_modules/@types/node/ts3.1/events.d.ts:44_
 
 **Parameters:**
 
@@ -212,7 +212,7 @@ _Inherited from EventEmitter.eventNames_
 
 _Overrides EventEmitter.eventNames_
 
-_Defined in node_modules/@types/node/events.d.ts:45_
+_Defined in node_modules/@types/node/ts3.1/events.d.ts:45_
 
 **Returns:** `Array`<`string` \| `symbol`>
 
@@ -224,7 +224,7 @@ _Defined in node_modules/@types/node/events.d.ts:45_
 
 ▸ **exportAccount**(authID: _`Buffer`_, opts?: _`object`_): `Promise`<`Buffer`>
 
-_Defined in [src/index.ts:132](https://github.com/StylusFrost/fluree-simple-keyring/blob/2ebbdeb/src/index.ts#L132)_
+_Defined in [src/index.ts:132](https://github.com/StylusFrost/fluree-simple-keyring/blob/ef9a3aa/src/index.ts#L132)_
 
 **Parameters:**
 
@@ -243,7 +243,7 @@ _Defined in [src/index.ts:132](https://github.com/StylusFrost/fluree-simple-keyr
 
 ▸ **getAccounts**(): `Promise`<`Array`<`Buffer`>>
 
-_Defined in [src/index.ts:125](https://github.com/StylusFrost/fluree-simple-keyring/blob/2ebbdeb/src/index.ts#L125)_
+_Defined in [src/index.ts:125](https://github.com/StylusFrost/fluree-simple-keyring/blob/ef9a3aa/src/index.ts#L125)_
 
 **Returns:** `Promise`<`Array`<`Buffer`>>
 
@@ -255,7 +255,7 @@ _Defined in [src/index.ts:125](https://github.com/StylusFrost/fluree-simple-keyr
 
 ▸ **getAppKeyAuthID**(authID: _`Buffer`_, origin: _`string`_): `Promise`<`Buffer`>
 
-_Defined in [src/index.ts:151](https://github.com/StylusFrost/fluree-simple-keyring/blob/2ebbdeb/src/index.ts#L151)_
+_Defined in [src/index.ts:151](https://github.com/StylusFrost/fluree-simple-keyring/blob/ef9a3aa/src/index.ts#L151)_
 
 **Parameters:**
 
@@ -278,7 +278,7 @@ _Inherited from EventEmitter.getMaxListeners_
 
 _Overrides EventEmitter.getMaxListeners_
 
-_Defined in node_modules/@types/node/events.d.ts:41_
+_Defined in node_modules/@types/node/ts3.1/events.d.ts:41_
 
 **Returns:** `number`
 
@@ -290,7 +290,7 @@ _Defined in node_modules/@types/node/events.d.ts:41_
 
 ▸ **getPrivateKeyFor**(authID: _`Buffer`_, opts?: _`object`_): `Buffer`
 
-_Defined in [src/index.ts:27](https://github.com/StylusFrost/fluree-simple-keyring/blob/2ebbdeb/src/index.ts#L27)_
+_Defined in [src/index.ts:27](https://github.com/StylusFrost/fluree-simple-keyring/blob/ef9a3aa/src/index.ts#L27)_
 
 **Parameters:**
 
@@ -309,7 +309,7 @@ _Defined in [src/index.ts:27](https://github.com/StylusFrost/fluree-simple-keyri
 
 ▸ **getWalletForAccount**(authID: _`Buffer`_, opts?: _`any`_): `Wallet`
 
-_Defined in [src/index.ts:39](https://github.com/StylusFrost/fluree-simple-keyring/blob/2ebbdeb/src/index.ts#L39)_
+_Defined in [src/index.ts:39](https://github.com/StylusFrost/fluree-simple-keyring/blob/ef9a3aa/src/index.ts#L39)_
 
 **Parameters:**
 
@@ -332,7 +332,7 @@ _Inherited from EventEmitter.listenerCount_
 
 _Overrides EventEmitter.listenerCount_
 
-_Defined in node_modules/@types/node/events.d.ts:46_
+_Defined in node_modules/@types/node/ts3.1/events.d.ts:46_
 
 **Parameters:**
 
@@ -354,7 +354,7 @@ _Inherited from EventEmitter.listeners_
 
 _Overrides EventEmitter.listeners_
 
-_Defined in node_modules/@types/node/events.d.ts:42_
+_Defined in node_modules/@types/node/ts3.1/events.d.ts:42_
 
 **Parameters:**
 
@@ -376,7 +376,7 @@ _Inherited from EventEmitter.off_
 
 _Overrides EventEmitter.off_
 
-_Defined in node_modules/@types/node/events.d.ts:38_
+_Defined in node_modules/@types/node/ts3.1/events.d.ts:38_
 
 **Parameters:**
 
@@ -399,7 +399,7 @@ _Inherited from EventEmitter.on_
 
 _Overrides EventEmitter.on_
 
-_Defined in node_modules/@types/node/events.d.ts:33_
+_Defined in node_modules/@types/node/ts3.1/events.d.ts:33_
 
 **Parameters:**
 
@@ -422,7 +422,7 @@ _Inherited from EventEmitter.once_
 
 _Overrides EventEmitter.once_
 
-_Defined in node_modules/@types/node/events.d.ts:34_
+_Defined in node_modules/@types/node/ts3.1/events.d.ts:34_
 
 **Parameters:**
 
@@ -445,7 +445,7 @@ _Inherited from EventEmitter.prependListener_
 
 _Overrides EventEmitter.prependListener_
 
-_Defined in node_modules/@types/node/events.d.ts:35_
+_Defined in node_modules/@types/node/ts3.1/events.d.ts:35_
 
 **Parameters:**
 
@@ -468,7 +468,7 @@ _Inherited from EventEmitter.prependOnceListener_
 
 _Overrides EventEmitter.prependOnceListener_
 
-_Defined in node_modules/@types/node/events.d.ts:36_
+_Defined in node_modules/@types/node/ts3.1/events.d.ts:36_
 
 **Parameters:**
 
@@ -491,7 +491,7 @@ _Inherited from EventEmitter.rawListeners_
 
 _Overrides EventEmitter.rawListeners_
 
-_Defined in node_modules/@types/node/events.d.ts:43_
+_Defined in node_modules/@types/node/ts3.1/events.d.ts:43_
 
 **Parameters:**
 
@@ -509,7 +509,7 @@ _Defined in node_modules/@types/node/events.d.ts:43_
 
 ▸ **removeAccount**(authID: _`Buffer`_): `void`
 
-_Defined in [src/index.ts:140](https://github.com/StylusFrost/fluree-simple-keyring/blob/2ebbdeb/src/index.ts#L140)_
+_Defined in [src/index.ts:140](https://github.com/StylusFrost/fluree-simple-keyring/blob/ef9a3aa/src/index.ts#L140)_
 
 **Parameters:**
 
@@ -531,7 +531,7 @@ _Inherited from EventEmitter.removeAllListeners_
 
 _Overrides EventEmitter.removeAllListeners_
 
-_Defined in node_modules/@types/node/events.d.ts:39_
+_Defined in node_modules/@types/node/ts3.1/events.d.ts:39_
 
 **Parameters:**
 
@@ -553,7 +553,7 @@ _Inherited from EventEmitter.removeListener_
 
 _Overrides EventEmitter.removeListener_
 
-_Defined in node_modules/@types/node/events.d.ts:37_
+_Defined in node_modules/@types/node/ts3.1/events.d.ts:37_
 
 **Parameters:**
 
@@ -572,7 +572,7 @@ _Defined in node_modules/@types/node/events.d.ts:37_
 
 ▸ **serialize**(): `any`
 
-_Defined in [src/index.ts:88](https://github.com/StylusFrost/fluree-simple-keyring/blob/2ebbdeb/src/index.ts#L88)_
+_Defined in [src/index.ts:88](https://github.com/StylusFrost/fluree-simple-keyring/blob/ef9a3aa/src/index.ts#L88)_
 
 **Returns:** `any`
 
@@ -588,7 +588,7 @@ _Inherited from EventEmitter.setMaxListeners_
 
 _Overrides EventEmitter.setMaxListeners_
 
-_Defined in node_modules/@types/node/events.d.ts:40_
+_Defined in node_modules/@types/node/ts3.1/events.d.ts:40_
 
 **Parameters:**
 
@@ -606,7 +606,7 @@ _Defined in node_modules/@types/node/events.d.ts:40_
 
 ▸ **signQuery**(authID: _`Buffer`_, query: _`Query`_, opts?: _`object`_): `Promise`<`Query`>
 
-_Defined in [src/index.ts:62](https://github.com/StylusFrost/fluree-simple-keyring/blob/2ebbdeb/src/index.ts#L62)_
+_Defined in [src/index.ts:62](https://github.com/StylusFrost/fluree-simple-keyring/blob/ef9a3aa/src/index.ts#L62)_
 
 **Parameters:**
 
@@ -626,7 +626,7 @@ _Defined in [src/index.ts:62](https://github.com/StylusFrost/fluree-simple-keyri
 
 ▸ **signRequest**(authID: _`Buffer`_, request: _`Request`_, opts?: _`object`_): `Promise`<`Request`>
 
-_Defined in [src/index.ts:79](https://github.com/StylusFrost/fluree-simple-keyring/blob/2ebbdeb/src/index.ts#L79)_
+_Defined in [src/index.ts:79](https://github.com/StylusFrost/fluree-simple-keyring/blob/ef9a3aa/src/index.ts#L79)_
 
 **Parameters:**
 
@@ -646,7 +646,7 @@ _Defined in [src/index.ts:79](https://github.com/StylusFrost/fluree-simple-keyri
 
 ▸ **signTransaction**(authID: _`Buffer`_, tx: _`Transaction`_, opts?: _`object`_): `Promise`<`Transaction`>
 
-_Defined in [src/index.ts:71](https://github.com/StylusFrost/fluree-simple-keyring/blob/2ebbdeb/src/index.ts#L71)_
+_Defined in [src/index.ts:71](https://github.com/StylusFrost/fluree-simple-keyring/blob/ef9a3aa/src/index.ts#L71)_
 
 **Parameters:**
 
@@ -668,7 +668,7 @@ _Defined in [src/index.ts:71](https://github.com/StylusFrost/fluree-simple-keyri
 
 _Inherited from EventEmitter.listenerCount_
 
-_Defined in node_modules/@types/node/events.d.ts:29_
+_Defined in node_modules/@types/node/ts3.1/events.d.ts:29_
 
 **Parameters:**
 

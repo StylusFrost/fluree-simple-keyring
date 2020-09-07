@@ -1,4 +1,4 @@
-# fluree-simple-keyring - v0.1.0
+# fluree-simple-keyring - v0.1.1
 
 ## Index
 
